@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    height: 100vh;
+    background-size: 100% 100%;
+    
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+}
+.navbar ul{
+    float: right;
+    margin-right: 30px;
+}
+
+.navbar .karekok{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.navbar .karekok a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.navbar ul li{
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 6px 13px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: blue;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+    
+
+}
+
+.center h1{
+    color: black;
+    font-size: 80px;
+    font-weight: bold;
+    width: 800px;
+    text-align: center;
+}
+
+
+   
+    
+  
+    
+   
+   
+
+
+.center .buttons{
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+.buttons button{
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    background-color: red;
+    border: solid 1px red;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    transition: .5s;
+    
+}
+.buttons button:hover{
+    background-color: slateblue;
+}
